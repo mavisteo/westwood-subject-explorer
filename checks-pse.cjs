@@ -1,0 +1,21 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const ctx={console,sessionStorage:{getItem:()=>null},document:{getElementById:()=>({})},assert};vm.createContext(ctx);
+vm.runInContext(fs.readFileSync('dist/app.js','utf8').replace(/init\(\);\s*$/,''),ctx);ctx.seed=JSON.parse(fs.readFileSync('dist/data.json'));vm.runInContext('data=seed',ctx);
+let n=0;function test(s){vm.runInContext(s.startsWith('const html=')?'{'+s+'}':s,ctx);n++;}
+test(`const make=(ids,level='G3')=>({subjectEntries:ids.map(id=>({id,display:id,level,examinable:true}))});const five=make(['el','math','mt','sshist','cb']);assert(pathwayAssessment(five).jc.open);assert(pathwayAssessment(five).poly.open);assert(pathwayAssessment(five).pfp.open);assert(pathwayAssessment(five).ite2.open);assert(pathwayAssessment(five).ite3.open)`);
+test(`five.subjectEntries.find(s=>s.id==='math').level='G2';assert(!pathwayAssessment(five).jc.open);assert(pathwayAssessment(five).poly.open);assert(pathwayAssessment(five).pfp.open)`);
+test(`five.subjectEntries.find(s=>s.id==='math').level='G1';assert(!pathwayAssessment(five).jc.open);assert(!pathwayAssessment(five).pfp.open);assert(!pathwayAssessment(five).ite2.open);assert(!pathwayAssessment(five).poly.open);assert(pathwayAssessment(five).ite3.open)`);
+test(`const six=make(['el','math','mt','ssgeo','cb','am']);six.subjectEntries.find(s=>s.id==='math').level='G2';assert(pathwayAssessment(six).jc.open);assert(pathwayAssessment(six).jc.checks.some(c=>c.text.includes('Additional Mathematics: G3')))`);
+test(`const g2=make(['el','math','mt','sslit','cp'],'G2');assert(!pathwayAssessment(g2).jc.open);assert(!pathwayAssessment(g2).poly.open);assert(pathwayAssessment(g2).pfp.open);assert(pathwayAssessment(g2).ite2.open)`);
+test(`g2.subjectEntries.find(s=>s.id==='math').level='G1';assert(!pathwayAssessment(g2).pfp.open);assert(!pathwayAssessment(g2).ite2.open)`);
+test(`const g1=make(['el','math','mt','sci','ebs'],'G1');assert(pathwayAssessment(g1).ite3.open);assert(!pathwayAssessment(g1).ite2.open);g1.subjectEntries.find(s=>s.id==='mt').level='G3';assert.equal(pathwayAssessment(g1).n3,1);assert(pathwayAssessment(g1).ite3.open);assert(!pathwayAssessment(g1).pfp.open)`);
+test(`assert(!pathwayAssessment(make(['el','math','mt'])).ite3.open)`);
+test(`assert(!pathwayAssessment(make(['el','math','mt','comp','music'])).jc.open)`);
+test(`assert(!pathwayAssessment(make(['el','math','cb','am','sshist'])).jc.open)`);
+test(`assert.equal(pathwayAssessment(make(['el','math','mt','hmt','sshist'])).n3,4);assert(!pathwayAssessment(make(['el','math','mt','hmt','sshist'])).jc.open)`);
+test(`const cat=pseCatalog();assert(!cat.some(s=>['ss','hum'].includes(s.id)));assert.equal(cat.filter(s=>s.id.startsWith('ss')).length,3);assert(cat.find(s=>s.id==='am').levels.includes('G2'))`);
+test(`assert(pseConflict('cb','chem'));assert(pseConflict('cp','cb'));assert(pseConflict('ssgeo','sshist'));assert(pseConflict('el','el'));assert(!pseConflict('math','am'));assert(!pseConflict('cb','phy'))`);
+test(`const html=pathwayHTML(make(['el','math','mt','sshist','cb']),false,true);assert(html.includes('6 possible routes'));assert(!html.includes('Other routes: what is missing? (0)'));assert.equal((html.match(/class="inline moe-route-link"/g)||[]).length,6)`);
+test(`const html=pathwayHTML(g1,false,true);assert(html.includes('1 possible route based'));assert.equal((html.match(/route-unavailable/g)||[]).length,5);assert(!html.includes('Save or update your option'))`);
+const html=fs.readFileSync('dist/index.html','utf8');assert(html.includes('role="tablist"'));assert(html.includes('id="panel-postsecondary"'));assert(html.includes('aria-controls="panel-postsecondary"'));n++;
+console.log(n+' post-secondary input, mixed-level and rendering checks passed.');
