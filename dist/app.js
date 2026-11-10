@@ -104,7 +104,7 @@ function pseCatalog(){
  return [...entries,...['geo','hist','lit'].map(id=>({id,display:name(id)+' (full subject)',levels:['G3']})),...['geo','hist','lit'].map(id=>({id:'ss'+id,display:'Humanities (Social Studies + '+name(id)+')',levels:['G2','G3']})),{id:'hmt',display:'Higher Mother Tongue Language',levels:['G3']}].sort((a,b)=>a.display.localeCompare(b.display));
 }
 function pseConflict(a,b){if(a===b)return true;if(a.startsWith('ss')&&b.startsWith('ss'))return true;const parts={chem:['chem'],bio:['bio'],phy:['phy'],cb:['chem','bio'],cp:['chem','phy'],sci:['chem','bio','phy']};return !!(parts[a]&&parts[b]&&parts[a].some(id=>parts[b].includes(id)));}
-const pages=['subjects','postsecondary','eae','interview'];
+const pages=['interests','subjects','postsecondary','eae','interview','links'];
 function pageFromHash(){const hash=location.hash.slice(1);return hash.startsWith('eae-')?'eae':hash.startsWith('interview-')?'interview':pages.includes(hash)?hash:'subjects';}
 function setPage(page,updateHash=true){if(!pages.includes(page))page='subjects';for(const id of pages){const selected=id===page;$('panel-'+id).hidden=!selected;$('tab-'+id).setAttribute('aria-selected',String(selected));$('tab-'+id).tabIndex=selected?0:-1;}if(updateHash)history.replaceState(null,'','#'+page);}
 
@@ -119,5 +119,73 @@ function gradeConversionHTML(entries){
 function renderPseResults(){const catalog=pseCatalog(),selected=pseEntries.filter(r=>r.id),errors=[];const conversion=gradeConversionHTML(selected.filter(r=>catalog.some(s=>s.id===r.id&&s.levels.includes(r.level))));$('pse-grade-conversion').innerHTML=conversion;$('pse-grade-conversion').hidden=!conversion;if(pseEntries.some(r=>!r.id))errors.push('Choose a subject for every row, or remove any unused rows.');const seen=[];for(const row of selected){const s=catalog.find(s=>s.id===row.id);if(!s||!s.levels.includes(row.level))errors.push('Please check each subject and subject level.');if(seen.some(id=>pseConflict(id,row.id)))errors.push('Each subject can count once. Check for duplicate subjects or overlapping Science subjects.');seen.push(row.id);}$('pse-error').textContent=selected.length?errors[0]||'':'';if(!selected.length||errors.length){$('pse-results').innerHTML='<div class="empty"><h3>Your possibilities will appear here.</h3><p>Add your subjects and subject levels. Complete or remove any unused rows to see your results.</p></div>';return;}const subjectEntries=selected.map(r=>({...r,display:catalog.find(s=>s.id===r.id).display,examinable:true}));$('pse-results').innerHTML=pathwayHTML({label:'your subjects',subjectEntries},false,true);}
 function initPse(){try{const stored=JSON.parse(sessionStorage.getItem('wwss-pse-subjects-v1')||'null');if(Array.isArray(stored))pseEntries=stored.filter(r=>r&&pseCatalog().some(s=>s.id===r.id&&s.levels.includes(r.level))||r?.id==='').slice(0,12);}catch{}if(!pseEntries.length)pseEntries=[{id:'el',level:'G3'},{id:'math',level:'G3'},{id:'mt',level:'G3'},{id:'',level:'G3'},{id:'',level:'G3'}];renderPseRows();renderPseResults();setPage(pageFromHash(),false);window.addEventListener('hashchange',()=>setPage(pageFromHash(),false));document.querySelector('[role="tablist"]').addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey||!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const active=pages.findIndex(id=>$('tab-'+id).getAttribute('aria-selected')==='true');const page=e.key==='Home'?pages[0]:e.key==='End'?pages.at(-1):pages[(active+(e.key==='ArrowRight'?1:-1)+pages.length)%pages.length];setPage(page);$('tab-'+page).focus();});$('pse-add').onclick=()=>{if(pseEntries.length>=12)return;pseEntries.push({id:'',level:'G3'});psePersist();renderPseRows();renderPseResults();$('pse-subjects').querySelector(`[data-pse-subject="${pseEntries.length-1}"]`).focus();};$('pse-reset').onclick=()=>{pseEntries=[{id:'',level:'G3'}];psePersist();renderPseRows();renderPseResults();};document.addEventListener('click',e=>{const t=e.target.closest('button');if(!t)return;if(t.dataset.page)setPage(t.dataset.page);if(t.dataset.pseRemove!==undefined){pseEntries.splice(Number(t.dataset.pseRemove),1);if(!pseEntries.length)pseEntries=[{id:'',level:'G3'}];psePersist();renderPseRows();renderPseResults();}});document.addEventListener('change',e=>{const t=e.target;let i;if(t.dataset.pseSubject!==undefined){i=Number(t.dataset.pseSubject);const s=pseCatalog().find(s=>s.id===t.value);if(s&&pseEntries.some((r,j)=>j!==i&&r.id&&pseConflict(r.id,s.id))){renderPseRows();return;}pseEntries[i].id=t.value;if(s&&!s.levels.includes(pseEntries[i].level))pseEntries[i].level=s.levels.at(-1);psePersist();renderPseRows();renderPseResults();$('pse-subjects').querySelector(`[data-pse-subject="${i}"]`).focus();}if(t.dataset.pseLevel!==undefined){i=Number(t.dataset.pseLevel);const s=pseCatalog().find(s=>s.id===pseEntries[i].id);if(!s||s.levels.includes(t.value))pseEntries[i].level=t.value;psePersist();renderPseResults();}});}
 function bind(){document.addEventListener('click',e=>{const t=e.target.closest('button,a');if(!t)return;if(t.dataset.profile)setProfile(t.dataset.profile);if(t.dataset.category){category=t.dataset.category;renderExplore();}if(t.dataset.learn)learn(t.dataset.learn);if(t.dataset.build){comboId=t.dataset.build;selections={};optional=[];subjectLevels={};renderBuilder();$('builder').scrollIntoView({behavior:'smooth'});}});document.addEventListener('change',e=>{const t=e.target;if(t.dataset.subjectLevel){const id=t.dataset.subjectLevel;if(subjectLevelChoices(id).includes(t.value)){subjectLevels[id]=t.value;const list=items(current(),selections,optional,subjectLevels);$('subject-total').querySelector('.level-counts').textContent=summaryLevelCounts(list);renderDraftPathways();}}if(t.dataset.group){updateGroupChoice(t.dataset.group,t.value);}if(t.dataset.optionalGroup){const group=optionalGroups(current()).find(g=>g.id===t.dataset.optionalGroup);if(group){optional=optional.filter(id=>!group.options.includes(id));if(group.options.includes(t.value))optional.push(t.value);renderSummary();$('form-error').textContent='';}}if(t.dataset.optional){optional=t.checked?[...optional,t.dataset.optional]:optional.filter(x=>x!==t.dataset.optional);renderSummary();}});$('combo-select').onchange=()=>{comboId=$('combo-select').value;selections={};optional=[];renderFields();};$('search').oninput=renderExplore;$('staff').onclick=staff;$('sources').onclick=()=>modal(`<h2>Clear sources. Westwood choices.</h2><h3>Combinations and eligibility wording</h3><p>${esc(data.sources.combinations)}</p><h3>Broad future pathways</h3><p>${esc(data.sources.pathways)}</p><h3>Subject introductions</h3><p>${esc(data.sources.descriptors)}</p><p>Introductions have been shortened into student-friendly language. General descriptors are kept separate from school-specific assessment formats and programmes. Missing briefs are left for staff to complete.</p>`);document.querySelector('.modal-close').onclick=()=>$('modal').close();$('modal').addEventListener('click',e=>{if(e.target===$('modal')){const r=$('modal').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('modal').close();}});}
-async function init(){try{data=window.BOOTSTRAP||await fetch('data.json').then(r=>{if(!r.ok)throw Error();return r.json();});bind();setProfile('G3');initPse();initEae();}catch(err){document.querySelector('main').innerHTML='<div class="section"><h2>We couldn’t load the subject information.</h2><p>Please refresh this page or try again later.</p></div>';console.error(err);}}
+async function init(){try{data=window.BOOTSTRAP||await fetch('data.json').then(r=>{if(!r.ok)throw Error();return r.json();});bind();setProfile('G3');initPse();initEae();initInterests();initSiteSearch();}catch(err){document.querySelector('main').innerHTML='<div class="section"><h2>We couldn’t load the subject information.</h2><p>Please refresh this page or try again later.</p></div>';console.error(err);}}
+
+function searchWords(text){return String(text).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().match(/[a-z0-9]+/g)||[];}
+function searchDistance(a,b){
+ const d=Array.from({length:a.length+1},()=>Array(b.length+1).fill(0));
+ for(let i=0;i<=a.length;i++)d[i][0]=i;for(let j=0;j<=b.length;j++)d[0][j]=j;
+ for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++){
+  d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));
+  if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1])d[i][j]=Math.min(d[i][j],d[i-2][j-2]+1);
+ }return d[a.length][b.length];
+}
+function siteSearchScore(terms,title,body){
+ const heading=searchWords(title),words=[...new Set([...heading,...searchWords(body)])];let score=0;
+ for(const term of terms){
+  if(heading.includes(term)){continue;}
+  if(words.includes(term)){score+=2;continue;}
+  if(term.length>=3&&heading.some(w=>w.startsWith(term))){score+=3;continue;}
+  if(term.length>=3&&words.some(w=>w.startsWith(term))){score+=4;continue;}
+  const limit=term.length<4?0:term.length<8?1:2;let best=Infinity;
+  if(limit)for(const word of words){if(Math.abs(word.length-term.length)>limit)continue;const distance=searchDistance(term,word);if(distance<=limit)best=Math.min(best,100+distance*10+(heading.includes(word)?0:2));}
+  if(!Number.isFinite(best))return Infinity;score+=best;
+ }return score;
+}
+
+function siteSearchResourceMatches(terms){
+ return [
+  {title:'WWSS ECG Bot on ChatGPT',body:'Westwood ECG bot bots chatbot chatbots education career guidance AI assistant',target:'#eae-bot-chatgpt'},
+  {title:'WWSS ECG Bot on Gemini',body:'Westwood ECG bot bots chatbot chatbots education career guidance AI assistant',target:'#eae-bot-gemini'}
+ ].map(resource=>({...resource,page:'eae',route:'poly',score:siteSearchScore(terms,resource.title,resource.body)})).filter(resource=>Number.isFinite(resource.score));
+}
+
+function initSiteSearch(){
+ const input=$('site-search-input'),results=$('site-search-results'),list=$('site-search-list');
+ let matches=[];
+ const labels={subjects:'Subject combinations',postsecondary:'Post-secondary options',eae:'Early Admissions Process',interview:'Interview Preparation',interests:'Explore my interests',links:'Useful links'};
+ function search(){
+  const terms=searchWords(input.value).slice(0,12);
+  list.replaceChildren();results.hidden=!terms.length;if(!terms.length)return;
+  matches=[];
+  for(const page of pages){
+   const panel=$('panel-'+page);
+   for(const el of panel.querySelectorAll('h1,h2,h3,summary,.resource-directory a')){
+    if(el.closest('[hidden]')&&el.closest('[hidden]')!==panel)continue;
+    if(el.closest('summary')&&el.tagName!=='SUMMARY')continue;
+    if(el.closest('.eae-bot-resources'))continue;
+    const scope=el.matches('.resource-directory a')?el.parentElement:el.closest('details,article')||el.parentElement;
+    const title=(el.tagName==='SUMMARY'?(el.querySelector('h3')||el):el).textContent.trim().replace(/\s+/g,' ');
+    const body=scope.textContent.replace(/\s+/g,' ').trim();
+    const score=siteSearchScore(terms,title,body+' '+labels[page]);
+    if(Number.isFinite(score)&&!matches.some(m=>m.scope===scope))matches.push({page,el,scope,title,body,score});
+   }
+  }
+  for(const route of ['ite','poly']){const r=eaeRoutes[route],score=siteSearchScore(terms,r.name+' guide',JSON.stringify(r)+' portfolio interview timeline alumni resources');if(Number.isFinite(score))matches.push({page:'eae',route,title:r.name+' guide',score});}
+  matches.push(...siteSearchResourceMatches(terms));
+  matches.sort((a,b)=>a.score-b.score);
+  $('site-search-status').textContent=matches.length?`${matches.length} matching sections${matches.some(m=>m.score>=100)?' (including close spellings)':''}`:'No matches. Try a subject name, EAE, portfolio or counselling.';
+  matches.slice(0,30).forEach((m,i)=>{
+   const li=document.createElement('li'),b=document.createElement('button');b.type='button';b.dataset.result=i;
+   const strong=document.createElement('strong');strong.textContent=m.title;
+   const small=document.createElement('span');small.textContent=labels[m.page];b.append(strong,small);li.append(b);list.append(li);
+  });
+ }
+ input.addEventListener('input',search);
+ $('site-search-clear').onclick=()=>{input.value='';search();input.focus();};
+ input.addEventListener('keydown',e=>{if(e.key==='Escape'){$('site-search-clear').click();}});
+ list.addEventListener('click',e=>{const b=e.target.closest('button[data-result]');if(!b)return;const m=matches[Number(b.dataset.result)];setPage(m.page);if(m.route){eaeRoute=m.route;renderEaeGuide();m.el=m.target?$('eae-guide').querySelector(m.target):$('eae-guide');}for(let n=m.el;n&&n!==document.body;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;results.hidden=true;m.el.tabIndex=-1;m.el.focus({preventScroll:true});m.el.scrollIntoView({behavior:'smooth',block:'center'});});
+ input.addEventListener('focus',()=>{if(input.value.trim())search();});
+}
+
 init();

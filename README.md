@@ -2,7 +2,7 @@
 
 One stop ECG site for Westwood Students.
 
-This repository contains the complete static website, including the official school logo, six alumni portfolio preview images, source data, checks, and optional Google Apps Script setup files.
+This repository contains the complete static website, including the official school logo, alumni portfolio links and preview images, source data, checks, and optional Google Apps Script setup files.
 
 ## Run locally
 
@@ -16,18 +16,20 @@ Open http://localhost:8000 in your browser. No build step or API key is required
 
 ## Website features
 
+- Explore my interests: guided G3/G2/G1 questions, CCA and interest matching, course recommendations, score sources and MOE CourseFinder links.
+
 - Subject options: subject profiles, combination builder, expandable subject descriptions, videos and FAQs.
 - Post-secondary options: subject-level route matching and grade conversion information.
 - Early Admissions Process: ITE and Poly EAE guidance, write-up practice, portfolio resources, alumni previews and interview preparation.
 - Interview preparation: general advice and a mock chatbot window.
 
-The mock chatbot is not a live AI service. External videos, portfolios, documents and chatbots remain links or embeds; their original remote files are not copied into this repository.
+The mock chatbot is not a live AI service. External videos, portfolios, documents and chatbots remain links or embeds; linked resources remain external unless a local copy is included in `dist/assets/`.
 
 ## Files
 
 - `dist/`: the complete static website; use this directory as the publishing root for static hosting.
 - `dist/data.json`: current subject and combination data.
-- `dist/app.js`, `dist/eae.js`: website behaviour.
+- `dist/app.js`, `dist/eae.js`, `dist/interests.js`: website behaviour.
 - `dist/style.css`: appearance and layout.
 - `dist/assets/`: school logo and alumni portfolio previews.
 - `google-apps-script/`: optional Google Apps Script version and staff administration setup.
@@ -43,6 +45,8 @@ Edit the files in `dist/` and refresh your local preview. With Node.js installed
 node checks.cjs
 node checks-pse.cjs
 node checks-eae.cjs
+node checks-interests.cjs
+node checks-search.cjs
 ```
 
 The current `dist/data.json` is authoritative. `make_data.py` is an original data-generation script retained for reference; running it may overwrite newer content changes.
@@ -58,4 +62,12 @@ Follow `dist/setup.html` to install the Apps Script version. Uploading this repo
 The existing site is available at:
 https://westwood-subject-explorer-2027.apicalmavistem.chatgpt.site/
 
-This repository export does not enable GitHub Pages. To use another static host, publish the contents of `dist/`. Retain the source references and check external resources when updating the site.
+The existing GitHub Actions workflow publishes `dist/` to GitHub Pages on updates to `main`. To use another static host, publish the contents of `dist/`. Retain the source references and check external resources when updating the site.
+
+## Transfer status
+
+The interests explorer, G3/G2/G1 labels, personalised course matching, leftmost interests tab and subject updates are included.
+
+The alumni section retains the earlier version already published in this GitHub repository. New alumni PDFs, previews and portfolio links have not been transferred, pending explicit approval for public disclosure. School logos use their existing hosted URLs, so keep the original Westwood site available for those images.
+
+The optional Google Apps Script files and downloadable setup ZIP also retain their earlier GitHub versions.

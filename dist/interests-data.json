@@ -1,0 +1,1940 @@
+{
+  "checked": "6 November 2026",
+  "areas": [
+    {
+      "id": "science",
+      "name": "Applied Science",
+      "description": "Use experiments to understand materials, food and living things."
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "description": "Design, build and improve machines, electronics and useful systems."
+    },
+    {
+      "id": "business",
+      "name": "Business & Management",
+      "description": "Learn how organisations work, serve customers and manage money or people."
+    },
+    {
+      "id": "computing",
+      "name": "IT & Computing",
+      "description": "Build apps, work with data and keep computer systems safe."
+    },
+    {
+      "id": "design",
+      "name": "Design & Media",
+      "description": "Turn ideas into useful designs, videos and digital content."
+    },
+    {
+      "id": "health",
+      "name": "Health Sciences",
+      "description": "Learn about health, medicines and caring for people."
+    },
+    {
+      "id": "arts",
+      "name": "Arts & Performing Arts",
+      "description": "Create sound, stories and live experiences. Explore work behind the scenes too."
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality & Tourism",
+      "description": "Create good experiences through travel, hotels, food and events."
+    },
+    {
+      "id": "social",
+      "name": "Social Services & Early Childhood",
+      "description": "Support people in the community or help young children learn."
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Wellness",
+      "description": "Help people stay active, improve performance and build healthy habits."
+    },
+    {
+      "id": "environment",
+      "name": "Environment & Sustainability",
+      "description": "Protect nature and find ways to use energy and resources wisely."
+    },
+    {
+      "id": "humanities",
+      "name": "Humanities",
+      "description": "Explore people, society and ideas. Related courses use writing, research and people skills."
+    },
+    {
+      "id": "data",
+      "name": "Maths & Data Sciences",
+      "description": "Use numbers, patterns and data to solve problems and make decisions."
+    }
+  ],
+  "courses": [
+    {
+      "id": "R14",
+      "route": "poly",
+      "title": "Diploma in Biomedical Science",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "science",
+        "health"
+      ],
+      "about": "Explore human biology and how laboratory tests help us understand disease.",
+      "skills": "Laboratory testing, scientific thinking and analysing results.",
+      "jobs": "Laboratory technologist or research assistant.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r14-biomedical-science",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "8–10"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "biology",
+        "laboratory",
+        "health"
+      ]
+    },
+    {
+      "id": "R17",
+      "route": "poly",
+      "title": "Diploma in Applied Chemistry",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "science",
+        "environment"
+      ],
+      "about": "Explore chemicals, materials and how they are tested and used.",
+      "skills": "Chemical analysis, safe laboratory work and quality testing.",
+      "jobs": "Laboratory analyst or quality control technician.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r17-applied-chemistry",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "10–14"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "chemistry",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "R22",
+      "route": "poly",
+      "title": "Diploma in Pharmaceutical Science",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "science",
+        "health"
+      ],
+      "about": "Learn about medicines and how they are prepared, checked and used safely.",
+      "skills": "Drug knowledge, laboratory work and quality assurance.",
+      "jobs": "Pharmacy technician or pharmaceutical production roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r22-pharmaceutical-science",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "10–17"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "medicines",
+        "chemistry",
+        "laboratory",
+        "health"
+      ]
+    },
+    {
+      "id": "R40",
+      "route": "poly",
+      "title": "Diploma in Aerospace Engineering",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "engineering"
+      ],
+      "about": "Explore aircraft systems and how aircraft are maintained.",
+      "skills": "Engineering problem-solving, technical drawing and maintenance skills.",
+      "jobs": "Aircraft maintenance or aerospace technical roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r40-aerospace-engineering",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "14–24"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "aviation",
+        "mechanical"
+      ]
+    },
+    {
+      "id": "R50",
+      "route": "poly",
+      "title": "Diploma in Electrical & Electronic Engineering",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "engineering",
+        "computing",
+        "environment"
+      ],
+      "about": "Learn how electrical and electronic systems power everyday technology.",
+      "skills": "Circuit testing, electronics and troubleshooting.",
+      "jobs": "Electrical or electronics technical roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r50-electrical-and-electronic-engineering",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "11–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "electrical",
+        "electronics"
+      ]
+    },
+    {
+      "id": "R54",
+      "route": "poly",
+      "title": "Diploma in Mobility & Robotic Systems",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "engineering",
+        "computing"
+      ],
+      "about": "Explore robots and technology that moves people or goods.",
+      "skills": "Automation, programming and system testing.",
+      "jobs": "Robotics or automation technical roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r54-mobility-and-robotic-systems",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "17–22"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "robotics",
+        "electronics",
+        "programming"
+      ]
+    },
+    {
+      "id": "R60",
+      "route": "poly",
+      "title": "Diploma in Business",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "business"
+      ],
+      "about": "Explore how businesses develop ideas and serve customers.",
+      "skills": "Marketing, business planning and communication.",
+      "jobs": "Business development, marketing or operations roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r60-business",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-B",
+        "values": {
+          "Republic Polytechnic": "6–16"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "business",
+        "marketing"
+      ]
+    },
+    {
+      "id": "R52",
+      "route": "poly",
+      "title": "Diploma in Human Resource Management with Psychology",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "business",
+        "social",
+        "humanities"
+      ],
+      "about": "Learn how organisations support people at work and understand behaviour.",
+      "skills": "Recruitment, people management and workplace communication.",
+      "jobs": "Human resources or staff training support roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r52-human-resource-management-with-psychology",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-B",
+        "values": {
+          "Republic Polytechnic": "11–16"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "humanresources",
+        "psychology"
+      ]
+    },
+    {
+      "id": "R48",
+      "route": "poly",
+      "title": "Diploma in Consumer Insights & Psychology",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "business",
+        "humanities",
+        "data"
+      ],
+      "about": "Explore why people make choices and how organisations understand customers.",
+      "skills": "Research, data analysis and understanding behaviour.",
+      "jobs": "Market research or customer insights roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r48-consumer-insights-and-psychology",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-B",
+        "values": {
+          "Republic Polytechnic": "15–18"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "psychology",
+        "research",
+        "marketing",
+        "data"
+      ]
+    },
+    {
+      "id": "R47",
+      "route": "poly",
+      "title": "Diploma in Information Technology",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "computing"
+      ],
+      "about": "Build software and learn how digital systems support everyday work.",
+      "skills": "Programming, app development and solving technical problems.",
+      "jobs": "Software developer or IT support roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r47-information-technology",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "12–24"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "software",
+        "programming"
+      ]
+    },
+    {
+      "id": "R13",
+      "route": "poly",
+      "title": "Diploma in Applied AI & Analytics",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "computing",
+        "data"
+      ],
+      "about": "Use data and artificial intelligence to answer questions and solve problems.",
+      "skills": "Coding, analysing data and building AI applications.",
+      "jobs": "Data analyst or AI application development roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r13-applied-ai-and-analytics",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "15–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "ai",
+        "data",
+        "programming"
+      ]
+    },
+    {
+      "id": "R55",
+      "route": "poly",
+      "title": "Diploma in Cybersecurity & Digital Forensics",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "computing"
+      ],
+      "about": "Protect computer systems and investigate digital security incidents.",
+      "skills": "Network security, incident response and digital investigation.",
+      "jobs": "Security operations analyst or cybersecurity technical roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r55-cybersecurity-and-digital-forensics",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "15–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "cybersecurity",
+        "networks",
+        "security"
+      ]
+    },
+    {
+      "id": "R67",
+      "route": "poly",
+      "title": "Diploma in Design",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "design",
+        "arts"
+      ],
+      "about": "Develop creative solutions for people, products and experiences.",
+      "skills": "Design thinking, visual communication and prototyping.",
+      "jobs": "Design or creative production roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r67-design",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-D",
+        "values": {
+          "Republic Polytechnic": "14–21"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "design",
+        "visual"
+      ]
+    },
+    {
+      "id": "R19",
+      "route": "poly",
+      "title": "Diploma in Digital Content Creation",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "design",
+        "arts",
+        "humanities"
+      ],
+      "about": "Create digital stories and content for different audiences.",
+      "skills": "Storytelling, visual content production and communication.",
+      "jobs": "Content creator or digital media production roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r19-digital-content-creation",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-A",
+        "values": {
+          "Republic Polytechnic": "9–21"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "media",
+        "film",
+        "writing"
+      ]
+    },
+    {
+      "id": "R24",
+      "route": "poly",
+      "title": "Diploma in Sonic Arts",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "arts",
+        "design"
+      ],
+      "about": "Create and shape sound for music, media and live events.",
+      "skills": "Audio recording, sound design and live sound operation.",
+      "jobs": "Audio technician, sound designer or music production roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r24-sonic-arts",
+      "score": {
+        "year": 2025,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-D",
+        "values": {
+          "Republic Polytechnic": "10–19"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE CourseFinder",
+        "sourceUrl": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r24-sonic-arts"
+      },
+      "topics": [
+        "music",
+        "audio"
+      ]
+    },
+    {
+      "id": "R45",
+      "route": "poly",
+      "title": "Diploma in Integrated Community Care",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "health",
+        "social"
+      ],
+      "about": "Learn how to support people with health and social care needs.",
+      "skills": "Care coordination, communication and community support.",
+      "jobs": "Community care or care coordination support roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r45-integrated-community-care",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "11–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "care",
+        "community",
+        "health"
+      ]
+    },
+    {
+      "id": "R25",
+      "route": "poly",
+      "title": "Diploma in Arts & Entertainment Production Management",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "arts",
+        "design",
+        "hospitality"
+      ],
+      "about": "Help bring performances and entertainment events to life.",
+      "skills": "Production planning, event operations and technical coordination.",
+      "jobs": "Production coordinator or stage and event operations roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r25-arts-and-entertainment-production-management",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-A",
+        "values": {
+          "Republic Polytechnic": "13–21"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "theatre",
+        "events",
+        "audio"
+      ]
+    },
+    {
+      "id": "R66",
+      "route": "poly",
+      "title": "Diploma in Hospitality & Tourism Management",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "hospitality",
+        "business"
+      ],
+      "about": "Explore travel, tourism and creating memorable visitor experiences.",
+      "skills": "Guest service, tourism planning and hospitality operations.",
+      "jobs": "Tourism, attractions or guest experience roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r66-hospitality-and-tourism-management",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-B",
+        "values": {
+          "Republic Polytechnic": "11–22"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "tourism",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "R37",
+      "route": "poly",
+      "title": "Diploma in Hotel & Leisure Management",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "hospitality",
+        "business"
+      ],
+      "about": "Learn how hotels and leisure businesses welcome guests and run smoothly.",
+      "skills": "Guest service, accommodation operations and business analysis.",
+      "jobs": "Hotel operations or leisure services roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r37-hotel-and-leisure-management",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-B",
+        "values": {
+          "Republic Polytechnic": "14–24"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "hotel",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "R28",
+      "route": "poly",
+      "title": "Diploma in Events & Project Management",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "hospitality",
+        "business",
+        "arts"
+      ],
+      "about": "Plan and run experiences such as concerts, exhibitions and sports events.",
+      "skills": "Project planning, budgeting and event coordination.",
+      "jobs": "Event coordinator or project operations roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r28-events-and-project-management",
+      "score": {
+        "year": 2025,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-B",
+        "values": {
+          "Republic Polytechnic": "16–26"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE CourseFinder",
+        "sourceUrl": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r28-events-and-project-management"
+      },
+      "topics": [
+        "events",
+        "operations"
+      ]
+    },
+    {
+      "id": "R33",
+      "route": "poly",
+      "title": "Diploma in Outdoor Education",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "social",
+        "sports",
+        "humanities",
+        "environment"
+      ],
+      "about": "Use outdoor activities to help people learn, grow and work together.",
+      "skills": "Outdoor facilitation, safety planning and group leadership.",
+      "jobs": "Outdoor educator or adventure programme roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r33-outdoor-education",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-A",
+        "values": {
+          "Republic Polytechnic": "11–18"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "outdoors",
+        "education",
+        "coaching",
+        "environment"
+      ]
+    },
+    {
+      "id": "R26",
+      "route": "poly",
+      "title": "Diploma in Sport & Exercise Science",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "sports",
+        "health",
+        "science"
+      ],
+      "about": "Explore how the body moves and responds to exercise.",
+      "skills": "Exercise testing, training principles and analysing performance.",
+      "jobs": "Fitness trainer or sport science support roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r26-sport-and-exercise-science",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "6–14"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "sport",
+        "fitness",
+        "biology"
+      ]
+    },
+    {
+      "id": "R49",
+      "route": "poly",
+      "title": "Diploma in Sport Coaching",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "sports",
+        "social"
+      ],
+      "about": "Learn how to coach people and help them improve through sport.",
+      "skills": "Coaching, training design and communication.",
+      "jobs": "Sport coach or sport development roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r49-sport-coaching",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "15–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "sport",
+        "coaching",
+        "education"
+      ]
+    },
+    {
+      "id": "R43",
+      "route": "poly",
+      "title": "Diploma in Sports & Health",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "sports",
+        "health"
+      ],
+      "about": "Explore how physical activity can support health and well-being.",
+      "skills": "Exercise planning, health promotion and fitness skills.",
+      "jobs": "Wellness programme or fitness industry roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r43-sports-and-health",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "14–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "sport",
+        "fitness",
+        "health"
+      ]
+    },
+    {
+      "id": "R62",
+      "route": "poly",
+      "title": "Diploma in Environmental & Marine Science",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "environment",
+        "science"
+      ],
+      "about": "Study the environment and marine life, and ways to protect them.",
+      "skills": "Environmental sampling, scientific investigation and data analysis.",
+      "jobs": "Environmental or marine science technical roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r62-environmental-and-marine-science",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "8–10"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "environment",
+        "biology",
+        "marine",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "R61",
+      "route": "poly",
+      "title": "Diploma in Sustainable Built Environment",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "environment",
+        "engineering",
+        "design"
+      ],
+      "about": "Explore how to make buildings and places more sustainable.",
+      "skills": "Building technology, resource efficiency and project skills.",
+      "jobs": "Built environment or facilities sustainability roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r61-sustainable-built-environment",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "16–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "buildings",
+        "environment",
+        "design"
+      ]
+    },
+    {
+      "id": "R16",
+      "route": "poly",
+      "title": "Diploma in Biological Sciences",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "science",
+        "environment",
+        "health"
+      ],
+      "about": "Explore living things and applications in biotechnology, food and agriculture.",
+      "skills": "Laboratory techniques, biological investigation and data handling.",
+      "jobs": "Biotechnology, food or agricultural laboratory roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r16-biological-sciences",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "11–17"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "biology",
+        "biotechnology",
+        "food",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "R32",
+      "route": "poly",
+      "title": "Diploma in Mass Communication",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "humanities",
+        "design",
+        "arts"
+      ],
+      "about": "Tell stories and communicate information for different audiences.",
+      "skills": "Writing, interviewing, media production and communication planning.",
+      "jobs": "Journalism, public relations or media production roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r32-mass-communication",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-A",
+        "values": {
+          "Republic Polytechnic": "6–17"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "media",
+        "journalism",
+        "writing"
+      ]
+    },
+    {
+      "id": "R18",
+      "route": "poly",
+      "title": "Diploma in Financial Technology",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "data",
+        "computing",
+        "business"
+      ],
+      "about": "Explore how digital tools and data support financial services.",
+      "skills": "Programming, financial knowledge and data analysis.",
+      "jobs": "Financial technology operations or business analysis roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r18-financial-technology",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "11–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "finance",
+        "data",
+        "programming"
+      ]
+    },
+    {
+      "id": "R11",
+      "route": "poly",
+      "title": "Diploma in Business Process & Engineering Management",
+      "institution": "Republic Polytechnic",
+      "areas": [
+        "data",
+        "engineering",
+        "business"
+      ],
+      "about": "Improve how organisations plan work and run systems.",
+      "skills": "Process improvement, data analysis and operations planning.",
+      "jobs": "Operations, process improvement or planning roles.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r11-business-process-and-engineering-management",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "11–26"
+        },
+        "kind": "range",
+        "sourceLabel": "RP official 2026 JAE ranges",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      },
+      "topics": [
+        "operations",
+        "data"
+      ]
+    },
+    {
+      "id": "N96",
+      "route": "poly",
+      "title": "Diploma in Early Childhood Development & Education",
+      "institution": "NIEC · Ngee Ann Polytechnic",
+      "areas": [
+        "social",
+        "humanities"
+      ],
+      "about": "Learn how young children grow and how to support their learning.",
+      "skills": "Planning learning activities, observing children and communicating with families.",
+      "jobs": "Preschool educator, subject to professional certification requirements.",
+      "progression": "You may apply for related degree courses, subject to their entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=n96-early-childhood-development-and-education",
+      "score": {
+        "year": 2025,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-A",
+        "values": {
+          "Ngee Ann Polytechnic": "6–19"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE 2026 JAE course booklet (2025 ranges)",
+        "sourceUrl": "https://www.moe.gov.sg/-/media/files/post-secondary/2026-jae/2026-jae-courses.pdf"
+      },
+      "topics": [
+        "childcare",
+        "education"
+      ]
+    },
+    {
+      "id": "HF3SS",
+      "route": "ite",
+      "title": "Higher Nitec in Community Care & Social Services",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "social",
+        "health",
+        "humanities"
+      ],
+      "about": "Support people who need care in community settings.",
+      "skills": "Care support, communicating with clients and planning activities.",
+      "jobs": "Community care or social services support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-community-care--social-services-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College East": "6"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "care",
+        "community",
+        "health"
+      ]
+    },
+    {
+      "id": "HF3NS",
+      "route": "ite",
+      "title": "Higher Nitec in Nursing",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "health",
+        "social"
+      ],
+      "about": "Learn practical nursing skills to care for patients.",
+      "skills": "Patient care, monitoring health and teamwork.",
+      "jobs": "Enrolled nurse, subject to Singapore Nursing Board requirements.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-nursing-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELMAB2",
+        "values": {
+          "ITE College East": "13"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "nursing",
+        "care",
+        "health"
+      ]
+    },
+    {
+      "id": "HF3OP",
+      "route": "ite",
+      "title": "Higher Nitec in Opticianry",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "health",
+        "science"
+      ],
+      "about": "Learn how to help people with eyewear and vision needs.",
+      "skills": "Eyewear fitting, optical measurements and customer care.",
+      "jobs": "Opticianry roles, subject to professional registration requirements.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-opticianry-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College East": "6"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "optics",
+        "health"
+      ]
+    },
+    {
+      "id": "HF3AC",
+      "route": "ite",
+      "title": "Higher Nitec in Accounting",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "business",
+        "data"
+      ],
+      "about": "Learn how organisations record and manage their money.",
+      "skills": "Bookkeeping, financial records and spreadsheets.",
+      "jobs": "Accounts assistant or finance support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-accounting-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELB3",
+        "values": {
+          "ITE College Central": "5",
+          "ITE College East": "6",
+          "ITE College West": "6"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "accounting",
+        "finance"
+      ]
+    },
+    {
+      "id": "HF3BA",
+      "route": "ite",
+      "title": "Higher Nitec in Business Administration",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "business",
+        "social",
+        "humanities"
+      ],
+      "about": "Learn how offices and businesses organise their daily work.",
+      "skills": "Business communication, administration and digital office skills.",
+      "jobs": "Administrative, customer service or business support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-business-administration-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELB3",
+        "values": {
+          "ITE College Central": "3",
+          "ITE College East": "6",
+          "ITE College West": "3"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "business",
+        "humanresources",
+        "operations"
+      ]
+    },
+    {
+      "id": "HF3EV",
+      "route": "ite",
+      "title": "Higher Nitec in Event Management",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "business",
+        "hospitality",
+        "humanities",
+        "arts"
+      ],
+      "about": "Help plan and organise events for different groups.",
+      "skills": "Event planning, logistics and working with clients.",
+      "jobs": "Event assistant or event operations roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-event-management-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELB3",
+        "values": {
+          "ITE College Central": "5"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "events",
+        "operations"
+      ]
+    },
+    {
+      "id": "HF3BW",
+      "route": "ite",
+      "title": "Higher Nitec in Beauty & Wellness Management",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "business"
+      ],
+      "about": "Learn beauty services and ways to support personal wellness.",
+      "skills": "Beauty treatments, customer care and salon operations.",
+      "jobs": "Beauty therapist or wellness services roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-beauty--wellness-management-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "B4",
+        "values": {
+          "ITE College East": "2–5"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE CourseFinder",
+        "sourceUrl": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-beauty--wellness-management-3-years"
+      },
+      "topics": [
+        "beauty",
+        "wellness"
+      ]
+    },
+    {
+      "id": "HF3SM",
+      "route": "ite",
+      "title": "Higher Nitec in Sport Management",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "sports",
+        "social",
+        "business"
+      ],
+      "about": "Support sports activities, fitness programmes and events.",
+      "skills": "Exercise instruction, sports event planning and client motivation.",
+      "jobs": "Fitness assistant or sport event coordinator.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-sport-management-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELB3",
+        "values": {
+          "ITE College Central": "2–4",
+          "ITE College East": "2–5",
+          "ITE College West": "2–6"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE CourseFinder",
+        "sourceUrl": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-sport-management-3-years"
+      },
+      "topics": [
+        "sport",
+        "fitness",
+        "coaching",
+        "events"
+      ]
+    },
+    {
+      "id": "HF3CD",
+      "route": "ite",
+      "title": "Higher Nitec in Communication Design",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "design",
+        "arts"
+      ],
+      "about": "Communicate ideas through visual designs.",
+      "skills": "Graphic design, visual communication and digital production.",
+      "jobs": "Graphic design or creative production support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-communication-design-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "B4",
+        "values": {
+          "ITE College Central": "3"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "design",
+        "visual"
+      ]
+    },
+    {
+      "id": "HF3FV",
+      "route": "ite",
+      "title": "Higher Nitec in Film & Video Production",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "design",
+        "arts",
+        "humanities"
+      ],
+      "about": "Create stories for the screen and help produce videos.",
+      "skills": "Filming, editing and production teamwork.",
+      "jobs": "Video production or camera and editing support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-film-and-video-production-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "B4",
+        "values": {
+          "ITE College Central": "3"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "film",
+        "media"
+      ]
+    },
+    {
+      "id": "HF3TT",
+      "route": "ite",
+      "title": "Higher Nitec in Technical Theatre & Production",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "arts",
+        "design"
+      ],
+      "about": "Work behind the scenes to support live performances.",
+      "skills": "Stage lighting, sound and production operations.",
+      "jobs": "Stage, lighting or sound technician roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-technical-theatre-and-production-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "B4",
+        "values": {
+          "ITE College Central": "3"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "theatre",
+        "audio"
+      ]
+    },
+    {
+      "id": "HF3IA",
+      "route": "ite",
+      "title": "Higher Nitec in IT Applications Development",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "computing",
+        "design"
+      ],
+      "about": "Build apps and websites that solve everyday problems.",
+      "skills": "Coding, interface development and software testing.",
+      "jobs": "App development or web support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-it-applications-development-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College Central": "5",
+          "ITE College East": "11",
+          "ITE College West": "13"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "software",
+        "programming"
+      ]
+    },
+    {
+      "id": "HF3CN",
+      "route": "ite",
+      "title": "Higher Nitec in Cyber & Network Security",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "computing"
+      ],
+      "about": "Protect networks and help keep digital systems secure.",
+      "skills": "Network support, security monitoring and troubleshooting.",
+      "jobs": "Cybersecurity associate or network support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-cyber--network-security-3-years",
+      "score": {
+        "year": 2026,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College Central": "2–5",
+          "ITE College East": "2–8",
+          "ITE College West": "2–9"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE CourseFinder",
+        "sourceUrl": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-cyber--network-security-3-years"
+      },
+      "topics": [
+        "cybersecurity",
+        "networks",
+        "security"
+      ]
+    },
+    {
+      "id": "HF3DE",
+      "route": "ite",
+      "title": "Higher Nitec in Data Engineering",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "computing",
+        "data"
+      ],
+      "about": "Prepare and manage data so that it can be used reliably.",
+      "skills": "Data processing, programming and database skills.",
+      "jobs": "Data support or data operations roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-data-engineering-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College West": "8"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "data",
+        "programming"
+      ]
+    },
+    {
+      "id": "HF3EC",
+      "route": "ite",
+      "title": "Higher Nitec in Electronics Engineering",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "engineering",
+        "computing",
+        "data"
+      ],
+      "about": "Build, test and maintain electronic systems.",
+      "skills": "Circuit testing, electronics and fault finding.",
+      "jobs": "Electronics technician or technical support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-electronics-engineering-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College Central": "8",
+          "ITE College East": "17",
+          "ITE College West": "16"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "electronics"
+      ]
+    },
+    {
+      "id": "HF3EE",
+      "route": "ite",
+      "title": "Higher Nitec in Electrical Engineering",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "engineering",
+        "environment"
+      ],
+      "about": "Work with electrical installations and systems.",
+      "skills": "Electrical wiring, testing and maintenance.",
+      "jobs": "Electrical technician or maintenance roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-electrical-engineering-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAB3",
+        "values": {
+          "ITE College East": "16",
+          "ITE College West": "11"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "HF3FS",
+      "route": "ite",
+      "title": "Higher Nitec in Applied Food Science",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "science",
+        "hospitality"
+      ],
+      "about": "Explore food production, quality and safety.",
+      "skills": "Food testing, hygiene and production quality checks.",
+      "jobs": "Food laboratory or quality control support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-applied-food-science-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College East": "7"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "food",
+        "chemistry",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "HF3BC",
+      "route": "ite",
+      "title": "Higher Nitec in Bio-Chemical Technology",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "science",
+        "health",
+        "environment"
+      ],
+      "about": "Use biology and chemistry in laboratory and production work.",
+      "skills": "Laboratory testing, sample preparation and quality checks.",
+      "jobs": "Laboratory technician or bioprocess support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-bio-chemical-technology-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College East": "3"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "biology",
+        "biotechnology",
+        "chemistry",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "HF3CP",
+      "route": "ite",
+      "title": "Higher Nitec in Chemical Process Technology",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "science",
+        "engineering",
+        "environment"
+      ],
+      "about": "Learn how industrial processes turn raw materials into useful products.",
+      "skills": "Process monitoring, equipment operation and workplace safety.",
+      "jobs": "Process technician or plant operations roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-chemical-process-technology-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College East": "11"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "chemistry",
+        "process"
+      ]
+    },
+    {
+      "id": "HF3FM",
+      "route": "ite",
+      "title": "Higher Nitec in Facilities Management & Engineering",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "environment",
+        "engineering"
+      ],
+      "about": "Keep building systems running safely and efficiently.",
+      "skills": "Facilities maintenance, building services and energy awareness.",
+      "jobs": "Facilities or building maintenance technician roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-facilities-management--engineering-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "B4",
+        "values": {
+          "ITE College East": "3–15",
+          "ITE College West": "3–12"
+        },
+        "kind": "range",
+        "sourceLabel": "MOE CourseFinder",
+        "sourceUrl": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-facilities-management--engineering-3-years"
+      },
+      "topics": [
+        "buildings",
+        "electrical",
+        "energy"
+      ]
+    },
+    {
+      "id": "HF3LD",
+      "route": "ite",
+      "title": "Higher Nitec in Landscape Management & Design",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "environment",
+        "design"
+      ],
+      "about": "Design and care for planted spaces and landscapes.",
+      "skills": "Plant care, landscape planning and site maintenance.",
+      "jobs": "Landscape technician or horticulture support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-landscape-management-and-design-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {
+          "ITE College East": "9"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "plants",
+        "environment",
+        "design"
+      ]
+    },
+    {
+      "id": "HF3CA",
+      "route": "ite",
+      "title": "Higher Nitec in Culinary Arts",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "hospitality",
+        "science"
+      ],
+      "about": "Prepare food and learn how professional kitchens work.",
+      "skills": "Cooking, food safety and kitchen organisation.",
+      "jobs": "Cook or food production roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-culinary-arts-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "B4",
+        "values": {
+          "ITE College West": "6"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "cooking",
+        "food"
+      ]
+    },
+    {
+      "id": "HF3HH",
+      "route": "ite",
+      "title": "Higher Nitec in Hospitality Operations",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "hospitality",
+        "business"
+      ],
+      "about": "Help hotels and hospitality services welcome and serve guests.",
+      "skills": "Guest service, front office skills and hospitality operations.",
+      "jobs": "Hotel guest services or hospitality support roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-hospitality-operations-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELB3",
+        "values": {
+          "ITE College West": "6"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "hotel",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "HF3PB",
+      "route": "ite",
+      "title": "Higher Nitec in Pastry & Baking",
+      "institution": "ITE · 3 years",
+      "areas": [
+        "hospitality",
+        "science",
+        "arts"
+      ],
+      "about": "Learn how to make breads, pastries and desserts.",
+      "skills": "Baking, food safety and production planning.",
+      "jobs": "Baker or pastry production roles.",
+      "progression": "You may progress to a related diploma, including a Work-Study Diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-pastry-and-baking-3-years",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "ELB3",
+        "values": {
+          "ITE College West": "3"
+        },
+        "kind": "cutoff",
+        "sourceLabel": "ITE 2026 intake booklet (2025 posting scores)",
+        "sourceUrl": "https://isomer-user-content.by.gov.sg/145/097d74ce-8353-4a03-b0b1-f12b5822d473/JIEN_JIEE%202026%20Intake%20entry%20requirements.pdf"
+      },
+      "topics": [
+        "baking",
+        "food"
+      ]
+    },
+    {
+      "id": "R39",
+      "title": "Diploma in Aviation Management",
+      "institution": "Republic Polytechnic",
+      "route": "poly",
+      "areas": [
+        "engineering",
+        "business"
+      ],
+      "topics": [
+        "aviation",
+        "operations"
+      ],
+      "about": "Explore how airports, airlines and air traffic operations keep air travel running.",
+      "skills": "Airport operations, aviation safety and flight operations planning.",
+      "jobs": "Airport operations or airline operations roles.",
+      "progression": "You may apply for related degree courses, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=r39-aviation-management",
+      "officialUrl": "https://www.rp.edu.sg/education/diplomas/diploma-in-aviation-management/",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Republic Polytechnic": "11–17"
+        },
+        "kind": "range",
+        "sourceLabel": "Republic Polytechnic official 2026 JAE range",
+        "sourceUrl": "https://www.rp.edu.sg/admissions/intake/"
+      }
+    },
+    {
+      "id": "S88",
+      "title": "Diploma in Aeronautical Engineering",
+      "institution": "Singapore Polytechnic",
+      "route": "poly",
+      "areas": [
+        "engineering"
+      ],
+      "topics": [
+        "aviation",
+        "mechanical"
+      ],
+      "about": "Study aircraft structures, engines and how aircraft are maintained.",
+      "skills": "Aircraft engineering, technical problem-solving and maintenance principles.",
+      "jobs": "Aircraft maintenance or aerospace engineering technical roles.",
+      "progression": "You may apply for related degree courses, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=s88-aeronautical-engineering",
+      "officialUrl": "https://www.sp.edu.sg/courses/schools/mae/aeronautical-engineering",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Singapore Polytechnic": "5–13"
+        },
+        "kind": "range",
+        "sourceLabel": "Singapore Polytechnic official 2026 JAE range",
+        "sourceUrl": "https://www.sp.edu.sg/courses/schools/mae/aeronautical-engineering"
+      }
+    },
+    {
+      "id": "S90",
+      "title": "Diploma in Aerospace Electronics",
+      "institution": "Singapore Polytechnic",
+      "route": "poly",
+      "areas": [
+        "engineering",
+        "computing"
+      ],
+      "topics": [
+        "aviation",
+        "electronics"
+      ],
+      "about": "Explore the electronics and electrical systems used in aircraft.",
+      "skills": "Avionics, electronics testing and aircraft systems troubleshooting.",
+      "jobs": "Avionics or aircraft electronics technical roles.",
+      "progression": "You may apply for related degree courses, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=s90-aerospace-electronics",
+      "officialUrl": "https://www.sp.edu.sg/courses/schools/eee/aerospace-electronics",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Singapore Polytechnic": "4–13"
+        },
+        "kind": "range",
+        "sourceLabel": "Singapore Polytechnic official 2026 JAE range",
+        "sourceUrl": "https://www.sp.edu.sg/courses/schools/eee/aerospace-electronics"
+      }
+    },
+    {
+      "id": "C97",
+      "title": "Diploma in Nursing",
+      "institution": "Nanyang Polytechnic",
+      "route": "poly",
+      "areas": [
+        "health",
+        "social"
+      ],
+      "topics": [
+        "nursing",
+        "care",
+        "health"
+      ],
+      "about": "Learn to care for patients and support their health and recovery.",
+      "skills": "Nursing care, clinical assessment and communicating with patients.",
+      "jobs": "Registered nurse, subject to Singapore Nursing Board registration.",
+      "progression": "You may apply for related degree courses, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=c97-nursing",
+      "officialUrl": "https://www.nyp.edu.sg/student/study/schools/health-social-sciences/diploma-nursing",
+      "score": {
+        "year": 2026,
+        "exercise": "JAE",
+        "aggregate": "ELR2B2-C",
+        "values": {
+          "Nanyang Polytechnic": "7–26"
+        },
+        "kind": "range",
+        "sourceLabel": "Nanyang Polytechnic official 2026 JAE range",
+        "sourceUrl": "https://www.nyp.edu.sg/student/study/schools/health-social-sciences/diploma-nursing"
+      }
+    },
+    {
+      "id": "HF3AE",
+      "title": "Higher Nitec in Aerospace Engineering",
+      "institution": "ITE College Central · 3 years",
+      "route": "ite",
+      "areas": [
+        "engineering"
+      ],
+      "topics": [
+        "aviation",
+        "mechanical",
+        "electronics"
+      ],
+      "about": "Learn to maintain aircraft structures, engines and avionics systems.",
+      "skills": "Aircraft inspection, maintenance practices and aviation safety.",
+      "jobs": "Aircraft technician or aircraft maintenance technician.",
+      "progression": "You may apply for a related Work-Study Diploma or Polytechnic diploma, subject to entry requirements.",
+      "url": "https://www.moe.gov.sg/coursefinder/coursedetail?course=higher-nitec-in-aerospace-engineering-3-years",
+      "officialUrl": "https://www.ite.edu.sg/course-finder/higher-nitec-in-aerospace-engineering-3-year/",
+      "score": {
+        "year": 2025,
+        "exercise": "JIE ‘N’",
+        "aggregate": "MAS1B3",
+        "values": {},
+        "kind": "unavailable",
+        "note": "This three-year course began in 2026. A posting score has not been verified here. Check the current intake with ITE.",
+        "sourceLabel": "ITE official course and intake information",
+        "sourceUrl": "https://www.ite.edu.sg/course-finder/higher-nitec-in-aerospace-engineering-3-year/"
+      }
+    }
+  ]
+}

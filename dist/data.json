@@ -118,7 +118,7 @@
       ],
       "category": "Science",
       "short_description": "Investigate matter, its structure and how it changes.",
-      "full_description": "Chemistry investigates what matter is made of, how it is structured, and how substances transform and interact. You will connect the properties of materials with ideas about their structure at a very small scale. Scientific enquiry helps you make sense of materials and changes that occur in everyday life.",
+      "full_description": "Chemistry investigates what matter is made of, how it is structured, and how substances transform and interact. You will connect the properties of materials with ideas about their structure at a very small scale. Chemistry is compulsory in our school’s science combinations because it is the core science connecting Physics and Biology. It builds on the laws of Physics that govern particles, and a good understanding of Chemistry helps you understand the molecules that make up living organisms in Biology.",
       "suitable_for": [
         "Are curious about everyday materials",
         "Enjoy finding explanations for changes",
@@ -194,7 +194,7 @@
       ],
       "category": "Science",
       "short_description": "Study Chemistry together with Biology.",
-      "full_description": "This subject brings together Chemistry and Biology. Chemistry explores matter, its structure and how substances change. Biology explores living organisms and their interactions with one another and the environment. You will develop scientific reasoning and learn to communicate explanations across both components.",
+      "full_description": "Chemistry explores matter, its structure and how substances change. Biology explores living organisms and their interactions with one another and the environment. Chemistry is compulsory in our school’s science combinations because it is the core science connecting Physics and Biology. It builds on the laws of Physics that govern particles, and a good understanding of Chemistry helps you understand the molecules that make up living organisms in Biology. You will develop scientific reasoning skills.",
       "suitable_for": [
         "Enjoy understanding scientific ideas",
         "Are interested in both science components",
@@ -206,7 +206,7 @@
         "Evidence analysis",
         "Communication"
       ],
-      "considerations": "Plan time for both components. Practise explaining biological processes step by step.",
+      "considerations": "You need to do well in both Chemistry and Biology. Each component is weighted equally at 50%, so your final score is the average of the two component scores. Plan time for both components. Practise explaining biological processes step by step.",
       "source": "Supplied G2 booklet, PDF p.6; G3 booklet, PDF pp.9–10; descriptors only",
       "review_status": "ready",
       "active": true
@@ -220,7 +220,7 @@
       ],
       "category": "Science",
       "short_description": "Study Chemistry together with Physics.",
-      "full_description": "This subject brings together Chemistry and Physics. Chemistry explores matter, its structure and how substances change. Physics explores matter, energy and their interactions, using mathematics to express scientific relationships. You will develop scientific reasoning and learn to communicate explanations across both components.",
+      "full_description": "Chemistry explores matter, its structure and how substances change. Physics explores matter, energy and their interactions, using mathematics to express scientific relationships. Chemistry is compulsory in our school’s science combinations because it is the core science connecting Physics and Biology. It builds on the laws of Physics that govern particles, and a good understanding of Chemistry helps you understand the molecules that make up living organisms in Biology. You will develop scientific reasoning skills.",
       "suitable_for": [
         "Enjoy understanding scientific ideas",
         "Are interested in both science components",
@@ -232,7 +232,7 @@
         "Evidence analysis",
         "Communication"
       ],
-      "considerations": "Plan time for both components. Mathematics supports your learning in Physics.",
+      "considerations": "You need to do well in both Chemistry and Physics. Each component is weighted equally at 50%, so your final score is the average of the two component scores. Plan time for both components. Mathematics supports your learning in Physics.",
       "source": "Supplied G2 booklet, PDF p.6; G3 booklet, PDF pp.9–10; descriptors only",
       "review_status": "ready",
       "active": true

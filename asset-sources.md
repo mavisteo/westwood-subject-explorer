@@ -25,3 +25,8 @@ Official course pages: https://thecrashcourse.com/courses/crash-course-geography
 
 ## Alumni portfolio previews
 Actual website viewport captures (Media, Arts & Design and IT) and first-page PDF renders (Aviation, Pharmaceutical Sciences, Sports Sciences and Early Childhood Education), captured 26 October 2026 from the previously supplied alumni resources. Preview covers link to the original full portfolios. No source permissions changed.
+
+## Interests exploration graphics
+
+- `dist/assets/interests-discovery.svg`: original vector illustration created for this Site, depicting two students exploring science, technology, arts and sport.
+- The decorative SVG icon set in `dist/interests.js` is original, matching the hero illustration. Graphics carry no admission or score information. Decorative icons are hidden from assistive technology; the hero image has descriptive alternative text.
